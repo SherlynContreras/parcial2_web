@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="cssexamen.css">
+	<title>Evaluación Geografía</title>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+		<div class="col-12"><br>
+		<label for="">Nombre:</label>
+				<input class="form-control" type="text" placeholder="Escribe tu nombre completo" name="nombre" required ><hr>
+			<form  method="GET" action="examen.php">
+				<h1>Evaluación Geografía</h1><br>
+        <label for="">Instrucciones.- Escribe y elige las respuestas correctas, recuerda al responder las preguntas iniciarlas en mayusculas</label><br><br>
+				<label for="">1. ¿Dónde desemboca el río Amazonas?</label>
+				<input type="text" name="p1" id="atlantico" class="form-control" placeholder="Escribe la respuesta correcta"  required><br>
+        
+				<label for="">2. ¿En qué cordillera se encuentra el Monte Everest?</label>
+				<div class="col-sm-10">
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="p2" id="gridRadios1" value="a">
+        <label class="form-check-label" for="gridRadios1">
+          Andes
+        </label>
+      </div>
+    <div class="form-check">
+        <input class="form-check-input" type="radio" name="p2" id="gridRadios2" value="b">
+        <label class="form-check-label" for="gridRadios2">
+          Himalaya
+        </label>
+      </div>
+      <div class="form-check disabled">
+        <input class="form-check-input" type="radio" name="p2" id="gridRadios3" value="c">
+        <label class="form-check-label" for="gridRadios3">
+          Alpes
+        </label>
+    </div>
+      </div><br>
+      <div class="row">
+            <div class="col-12">
+      		<label for="">3. Selecciona los continentes que se encuentran en la tierra.</label>
+      		<div class="form-check">
+			  <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" name="p3[]" value="1" > <label class="form-check-label" for="gridCheck">
+        Oceanía
+      </label>
+			</div>
+			<div class="form-check">
+			  <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" name="p3[]" value="2" > <label class="form-check-label" for="gridCheck">
+        Paises bajos
+        </label> 
+			</div>
+			<div class="form-check">
+			  <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" name="p3[]" value="3"> <label class="form-check-label" for="gridCheck">
+        Europa
+        </label> 
+        </div>
+        </div>
+			</div><br>
+			<div class="row">
+				<div class="col-12">
+			<label for="">4. ¿Cuál es la isla más grande del mar Caribe?</label>
+		<input class="form-control" type="text" name="p4" placeholder="Escribe la respuesta correcta"required>
+	</div>
+			</div><br>
+			<div class="row">
+				<div class="col-12">
+					<label for="">5. ¿Cuál es el continente más grande de la tierra?</label>
+					<div class="col-sm-10">
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="p5" id="gridRadios1" value="a">
+        <label class="form-check-label" for="gridRadios1">
+          Asia
+        </label>
+      </div>
+    <div class="form-check">
+        <input class="form-check-input" type="radio" name="p5" id="gridRadios2" value="b">
+        <label class="form-check-label" for="gridRadios2">
+         America
+        </label>
+      </div>
+      <div class="form-check disabled">
+        <input class="form-check-input" type="radio" name="p5" id="gridRadios3" value="c">
+        <label class="form-check-label" for="gridRadios3">
+          África
+        </label>
+      </div>
+    </div>
+	   </div>
+			</div><br>
+			<div class="row">
+				<div class="col-12">
+					<label for="">6. Selecciona el nombre de océanos del mundo .</label>
+      		<div class="form-check">
+			  <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" name="p6[]" value="opcion1" > <label class="form-check-label" for="gridCheck">
+        Océano Ártico
+      </label>
+			</div>
+			<div class="form-check">
+			  <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" name="p6[]" value="opcion2" > <label class="form-check-label" for="gridCheck">
+         Océano Índico
+        </label> 
+			</div>
+			<div class="form-check">
+			  <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" name="p6[]" value="opcion3"> <label class="form-check-label" for="gridCheck">
+       Golfo de México
+        		</label> 
+        		</div>
+				</div>
+			</div><br>
+      <div class="row">
+        <div class="col-12">
+      <label for="">7. ¿Qué país se parece a una bota?</label>
+    <input class="form-control" type="text" name="p7" placeholder="Escribe la respuesta correcta"required>
+  </div>
+      </div><br>
+      <div class="row">
+        <div class="col-12">
+          <label for="">8. ¿Cuál es el estado más grande de México?</label>
+          <div class="col-sm-10">
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="p8" id="gridRadios1" value="a">
+        <label class="form-check-label" for="gridRadios1">
+          Nuevo león
+        </label>
+      </div>
+    <div class="form-check">
+        <input class="form-check-input" type="radio" name="p8" id="gridRadios2" value="b">
+        <label class="form-check-label" for="gridRadios2">
+         Coahuila
+        </label>
+      </div>
+      <div class="form-check disabled">
+        <input class="form-check-input" type="radio" name="p8" id="gridRadios3" value="c">
+        <label class="form-check-label" for="gridRadios3">
+          Chihuahua
+        </label>
+      </div>
+    </div>
+     </div>
+      </div><br>
+      <div class="row">
+        <div class="col-12">
+          <label for="">9. Selecciona los nombres de volcanes .</label>
+          <div class="form-check">
+        <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" name="p9[]"  value="opcion1" > <label class="form-check-label" for="gridCheck">
+        Popocatépetl
+      </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" name="p9[]"  value="opcion2" > <label class="form-check-label" for="gridCheck">
+         Monte Fuji
+        </label> 
+      </div>
+      <div class="form-check">
+        <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" name="p9[]"  value="opcion3"> <label class="form-check-label" for="gridCheck">
+       Denali
+            </label> 
+            </div>
+        </div>
+      </div><br>
+      <div class="row">
+        <div class="col-12">
+          <label for="">10. Acompleta la siguiente frase</label><br>
+          <label for="">Chile comparte la mayor parte de su territorio con... </label>
+          <div class="col-sm-10">
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="p10" id="gridRadios1" value="a">
+        <label class="form-check-label" for="gridRadios1">
+          Bolivia
+        </label>
+      </div>
+    <div class="form-check">
+        <input class="form-check-input" type="radio" name="p10" id="gridRadios2" value="b">
+        <label class="form-check-label" for="gridRadios2">
+         Argentina
+        </label>
+      </div>
+      <div class="form-check disabled">
+        <input class="form-check-input" type="radio" name="p10" id="gridRadios3" value="c">
+        <label class="form-check-label" for="gridRadios3">
+          Brasil
+        </label>
+      </div>
+    </div>
+  </div>
+</div><br>
+      <div class="row" >
+        <div class="col-12" >
+      <button type="submit" value="enviar" class="btn btn-outline-primary">Enviar</button>     </div>
+    </div>
+			</form>
+      <div class="row">
+        <div class="col-12">
+          <hr>
+          <h5>Suerte en el examen, ANIMO ANIMO</h5>
+          <label for="">Hecho por Contreras Higuera Sherlyn 2021</label>
+        </div>
+      </div>
+		</div>
+	</div>
+  </div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/util.js"></script>	
+	<script src="js/bootstrap.js"></script>	
+</body>
+</html>
