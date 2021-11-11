@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Registro de cliente</title>
+</head>
+<body>
+	<h1>Formulario de registro de clientes</h1><hr><br>
+	<label for="nombre">Nombre del cliente</label><br>
+	<form method="GET" action="parcial3.php">
+	<input type="text" name="nombre" placeholder="Nombre del cliente" required><br><br>
+
+	<label for="edad">Edad</label><br>
+	<input type="number" name="edad" placeholder="Edad" required><br><br>
+
+	<label for="correo">Correo</label><br>
+	<input type="text" name="correo" required placeholder="correo"><br><br>
+
+	<label for="fecha_nacimiento"> Fecha de nacimineto</label><br>
+	<input type="date" name="fecha_nacimiento" required ><br><br>
+
+	<label for="sexo">Sexo</label><br>
+	Femenino:<input type="radio" name="sexo" value="femenino"><br>
+	Masculino:<input type="radio" name="sexo" value="masculino">
+    <br><br>
+
+	<label for="areas"> Areas de Preferencia</label><br>
+
+	<input type="checkbox" name="areas[]" value="Tecnologia">Tecnologia<br>
+	<input type="checkbox" name="areas[]" value="Automovil">Automovil<br>
+	<input type="checkbox" name="areas[]" value="Belleza"> Belleza<br>
+	<input type="checkbox" name="areas[]" value="Salud"> Salud<br><br>
+
+	<input type="submit" value="Enviar">
+
+	<h3>Alumno:Contreras Higuera Sherlyn</h3>
+
+</form>
+
+</body>
+</html>
